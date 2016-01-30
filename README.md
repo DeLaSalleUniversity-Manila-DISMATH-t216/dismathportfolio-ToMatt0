@@ -26,8 +26,8 @@ We have a lot of catching up to do, though... This much is certain
 
 
 ####learning log 
--truth tables
--logical connectives
--a lot of what we learn will be similar to that in logic circuits
--YOU NEED to take notes in this class
--logical equivalences
+- truth tables
+- logical connectives
+- a lot of what we learn will be similar to that in logic circuits
+- YOU NEED to take notes in this class
+- logical equivalences
