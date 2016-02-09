@@ -63,11 +63,11 @@ It is imperative that we learn to hone our analysis skills and be more observant
 tiny details in statements. 
 
 ####learning log 
--Existetential Quantifiers are true if "there exist."
--Universal Quantifiers are true if "all exist."
+-  Quantifiers are true if "there exist."
+- Universal Quantifiers are true if "all exist."
 
--Existential Quantifiers are false if "none exist."
--Universal Quantifiers are false if a single value is false.
+- Existential Quantifiers are false if "none exist."
+- Universal Quantifiers are false if a single value is false.
 
--A fallacy leads to invalid are=guments. 
--Valid arguments are not necessarily true.
+- A fallacy leads to invalid are=guments. 
+- Valid arguments are not necessarily true.
