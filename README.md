@@ -85,8 +85,8 @@ This week, we learned the rules of inference and continued our discussion about 
 - a tautology is a rule of replacement that is used to replace redundant expressions (?)
 
 
-| Rules of Inference | Key phrases to think about |
-| :-----: | | :-----: |
+| Rules of Inference |||
+| :-----: |:-------:|
 | Modus ponens | Is, therefore |
 | Modus tollens | Is not, so |
 | Hypothetical Syllogism | Your front is my back |                                    
@@ -97,4 +97,4 @@ This week, we learned the rules of inference and continued our discussion about 
 | Resolution |  If you're not taking it, I will |
 
 
-HELPFUL LINK: http://www.philosophypages.com/lg/e11a.htm
+[HELPFUL LINK]: http://www.philosophypages.com/lg/e11a.htm
