@@ -3,6 +3,8 @@ dismathportfolio-ToMatt0 created by Classroom for GitHub
 
 Author: Matthew Gonzales
 ID: 11402725
+(FEEL FREE TO BROWSE AND/OR COPY)
+(?) - Signifies an unanswered question
 
 #Week 1
 
@@ -25,7 +27,7 @@ focus, either. It seems I will require to gather my attention for these lectures
 | ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
 | → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
 | ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
-
+#(biancacamille)
 
 #Week 2
 
@@ -53,7 +55,7 @@ We have a lot of catching up to do, though... This much is certain
 | Distributive Laws | p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) | p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) |  
 | De Morgan's Laws| ¬(p ∧ q) ≡ ¬p ∨ ¬q | ¬(p ∨ q) ≡ ¬p ∧ ¬q |                        
 | Absorption Laws | p ∨ (p ∧ q) ≡ p | p ∧ (p ∨ q) ≡ p |          
-
+#(biancacamille)
 
 #Week 3
 
@@ -71,3 +73,28 @@ tiny details in statements.
 
 - A fallacy leads to invalid are=guments. 
 - Valid arguments are not necessarily true.
+
+#Week 4
+
+####user log
+
+This week, we learned the rules of inference and continued our discussion about arguments.
+
+####learning log
+- atomic propositions, or assigning symbols and letters to propositional statements allows us to simplify tasks.
+- a tautology is a rule of replacement that is used to replace redundant expressions (?)
+
+
+| Rules of Inference | Key phrases to think about |
+| :-----: | | :-----: |
+| Modus ponens | Is, therefore |
+| Modus tollens | Is not, so |
+| Hypothetical Syllogism | Your front is my back |                                    
+| Disjunctive Syllogism | Not this, so this |                                                    
+| Addition |  Out of the blue |                                           
+| Simplification |  The truth's in the p |                                   
+| Conjunction | Put em' together | 
+| Resolution |  If you're not taking it, I will |
+
+
+HELPFUL LINK: http://www.philosophypages.com/lg/e11a.htm
