@@ -85,7 +85,7 @@ This week, we learned the rules of inference and continued our discussion about 
 - a tautology is a rule of replacement that is used to replace redundant expressions (?)
 
 
-| Rules of Inference |||
+| Rules of Inference ||
 | :-----: |:-------:|
 | Modus ponens | Is, therefore |
 | Modus tollens | Is not, so |
