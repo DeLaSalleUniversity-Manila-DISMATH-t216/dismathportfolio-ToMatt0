@@ -43,6 +43,15 @@ We have a lot of catching up to do, though... This much is certain
 - YOU NEED to take notes in this class
 - logical equivalences are laws that are similar to basic arithmetic.
 
+-  Quantifiers are true if "there exist."
+- Universal Quantifiers are true if "all exist."
+
+- Existential Quantifiers are false if "none exist."
+- Universal Quantifiers are false if a single value is false.
+
+- A fallacy leads to invalid arguments. 
+- Valid arguments are not necessarily true.
+- 
 | Name |||
 | :-----: |:-------:|:-----:|
 | Identity Laws | p ∨ F ≡ p | p ∧ T ≡ p |
@@ -60,23 +69,6 @@ We have a lot of catching up to do, though... This much is certain
 #Week 3
 
 ####user log
-This week, we finally had a glimpse of what problems in the exam would be like.
-It is imperative that we learn to hone our analysis skills and be more observant of the
-tiny details in statements. 
-
-####learning log 
--  Quantifiers are true if "there exist."
-- Universal Quantifiers are true if "all exist."
-
-- Existential Quantifiers are false if "none exist."
-- Universal Quantifiers are false if a single value is false.
-
-- A fallacy leads to invalid are=guments. 
-- Valid arguments are not necessarily true.
-
-#Week 4
-
-####user log
 
 This week, we learned the rules of inference and continued our discussion about arguments.
 
@@ -85,7 +77,7 @@ This week, we learned the rules of inference and continued our discussion about 
 - a tautology is a rule of replacement that is used to replace redundant expressions (?)
 
 
-| Rules of Inference ||
+| Rules of Inference (My way of remembering) ||
 | :-----: |:-------:|
 | Modus ponens | Is, therefore |
 | Modus tollens | Is not, so |
@@ -98,3 +90,49 @@ This week, we learned the rules of inference and continued our discussion about 
 
 
 [HELPFUL LINK]: http://www.philosophypages.com/lg/e11a.htm
+
+
+#Week 4
+
+| Methods of Proving ||
+| :-----: |:-------:|
+| Direct Proof | Assume **P** to be **true**, then prove **Q** |
+| Contraposition | Assume **¬Q** to be **true**, then prove **¬P**|
+| Vacuous or Trivial Proof | Proven by implications of truth |                                    
+
+- We have seen that Proof by Contraposition is a result of the logical equivalence of P → Q, which is ¬Q → ¬P.
+- A trivial proof is such that is proven by an implication of the antecedent's truth value.
+- A vacuous proof is such that is proven by an implication of the precedent's truth value.
+
+
+#Week 5
+| Methods of Proving ||
+| :-----: |:-------:|
+| Proof of Equivalence | For P ↔ Q,  prove **P → Q**, and **Q → P** |
+| Mathematical Induction | Start with a Basis, then show that P(k+1) is equivalent to P(k)+P(1)|
+
+- Learned that to prove a proof by equivalence "p ↔ q" , you must prove that p implies q AND q implies p.
+- Learned Recursive/Inductive Definition.
+- (Inductive Definition) The Basis Step of Inductive Definition is "find the value of the function at **0**."
+- (Inductive Definition) The Recursive Step of Inductive Definition is "give a general rule for finding the result of the function."
+
+
+#Week 6
+
+- Discussed sets, which was also the first topic in our ENGSTAT course.
+
+
+| Methods of Proving ||
+| :-----: |:-------:|
+| Union of Sets | ∨ |
+| Intersection of Sets | ∧ |
+| Set Differnece A/B  | Members of A that are not in B |
+| Symmetric Difference AΔB | (Members of A that are not in B) ∨ (Members of B not in A) |
+
+
+![img](http://cat4mba.com/Notes/Maths/settheroy/ven.gif)
+
+
+#Week 7
+
+
