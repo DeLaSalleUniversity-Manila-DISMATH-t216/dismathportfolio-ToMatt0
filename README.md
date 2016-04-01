@@ -135,4 +135,28 @@ This week, we learned the rules of inference and continued our discussion about 
 
 #Week 7
 
+- a function describes a relationship between elements of two sets
+- an image is a subset of a function's codomain and a preimage is the set of elements that are assigned to elements of the codomain
+- a codomain describes all possible output, BUT the range is the set of occuring elements.
+- the range is a subset of the codomain
+| Types of Functions ||
+| :-----: |:-------:|
+| Injective | One-to-One |
+| Surjective | Onto |
+| Bijective  | One-to-one correspondence |
+
+
+#Week 8
+- Existing knowledge in programming will help you better understand how to make pseudocode
+- Algorithms receive input, perform a procedure, and generate and output
+- Any algorithm should be designed to be **definite, finite and general**
+- Most of the algorithms we are discussing aim to solve simple problems by providing a definite procedure.
+- In the words of Sir Mallari "Computers are dumb. You have to tell them exactly what to do."
+
+#Week 9
+- We learned about **linear search and binary search**
+- We have implemented linear search in the past during our C programming classes
+- Also learned about **insertion and bubble sort**
+- A bubble sort is called that way because larger values "bubble up" or float to the top.
+
 
