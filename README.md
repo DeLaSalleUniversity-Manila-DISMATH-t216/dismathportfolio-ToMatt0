@@ -139,8 +139,9 @@ This week, we learned the rules of inference and continued our discussion about 
 - an image is a subset of a function's codomain and a preimage is the set of elements that are assigned to elements of the codomain
 - a codomain describes all possible output, BUT the range is the set of occuring elements.
 - the range is a subset of the codomain
+- 
 | Types of Functions ||
-| :-----: |:-------:|
+| :-----: | :-------: |
 | Injective | One-to-One |
 | Surjective | Onto |
 | Bijective  | One-to-one correspondence |
