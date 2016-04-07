@@ -10,7 +10,7 @@ ID: 11402725
 
 
 ####user log
-I'm a bit intimidated by this type of syntax, but excited by what kind of logical "puzzles" 
+I'm a bit intimidated by this type of subject, but excited by what kind of logical "puzzles" 
 we'll be encountering next. I hope that my morning grogginess wont get in the way of my
 focus, either. It seems I will require to gather my attention for these lectures.
 
@@ -19,52 +19,38 @@ focus, either. It seems I will require to gather my attention for these lectures
 - importance of order of symbols in creating conditions and propositions.
 - combination of symbols having different meanings.
 
-| Logical Symbol  |  Logical Operator | Shorthand | Formula | Logical Expression |
-| :-----: |:-------:|:-----:| :-------: | :-------: |
-| ¬ |Negation | not | val(¬p) = 1 - val(p) | ¬p |
-| ∧ | Conjunction | and | val(p ∧ q) = min(val(p), val(q)) | p ∧ q |
-| ∨ | Disjunction | or | val(p v q) = max(val(p), val(q)) | p v q |
-| ⊕ | Exclusive disjunction | xor | if val(p)  not equal val(q) = 1 , otherwise  0|  p ⊕ q  ≡ (¬p ∧ q) v (p ∧ ¬q) |
-| → | Conditional | if, then | if val(p)  ≤ val(q) = 1 , otherwise  0  | p → q ≡  ¬p v q |
-| ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
-###(taken from biancacamille)
+- a mathematical proof is an argument that is proved with theorems and principles that have already been established.
+- a proposition is "a chain of logical deductions leading to the proposition from a base set of axioms."
+
+- logical connectives can be described as symbols that unite propositions.
+- truth tables is a tool that can use to understand logical connectives.
+
+![img](http://image.slidesharecdn.com/lecture1dsiwarislogic-150919223941-lva1-app6891/95/discrete-structure-lecture-no-1-20-638.jpg?cb=1442702579)
 
 #Week 2
 
 ####user log
 We're finally picking up momentum as we go deeper into the DISMATH concepts. 
-We have a lot of catching up to do, though... This much is certain
+We have a lot of catching up to do, though... 
 
 
 ####learning log 
-- truth tables
-- logical connectives
 - a lot of what we learn will be similar to that in logic circuits
 - YOU NEED to take notes in this class
-- logical equivalences are laws that are similar to basic arithmetic.
 
--  Quantifiers are true if "there exist."
-- Universal Quantifiers are true if "all exist."
+- logical equivalences, along, with truth tables are tools in mathematical logic that allow us to analyze statements.
 
-- Existential Quantifiers are false if "none exist."
-- Universal Quantifiers are false if a single value is false.
+- Existential Quantifiers are true if "there exist of value for which the proposition it is attached to is true."
+- Universal Quantifiers are true if "the proposition is true for every value."
+
+- Existential Quantifiers are false if "there is no value for which the proposition it is attached to is true."
+- Universal Quantifiers are false if "the proposition is false for every value".
 
 - A fallacy leads to invalid arguments. 
 - Valid arguments are not necessarily true.
-- 
-| Name |||
-| :-----: |:-------:|:-----:|
-| Identity Laws | p ∨ F ≡ p | p ∧ T ≡ p |
-| Domination Laws| p ∨ T ≡ T | p ∧ F ≡ F |
-| Negation Laws| p ∧ ¬p ≡ F | p ∨ ¬p ≡ T |                                            
-| Double Negation Laws | (¬(¬p) ≡ p) |                                                           
-| Idempotent Laws| p ∨ p ≡ p | p ∧ p ≡ p |                                              
-| Commutative Laws | p ∨ q ≡ q ∨ p | p ∧ q ≡ q ∧ p |                                       
-| Associative Laws | (p ∨ q) ∨ r ≡ p ∨ (q ∨ r) | (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) |            
-| Distributive Laws | p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) | p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) |  
-| De Morgan's Laws| ¬(p ∧ q) ≡ ¬p ∨ ¬q | ¬(p ∨ q) ≡ ¬p ∧ ¬q |                        
-| Absorption Laws | p ∨ (p ∧ q) ≡ p | p ∧ (p ∨ q) ≡ p |          
-###(taken from biancacamille)
+
+![img](http://www.csitschools.com/wp-content/uploads/2015/08/Capture39.jpg)
+![img](http://lh3.ggpht.com/-NfwPPequ40g/Td_EbcwizXI/AAAAAAAAAGA/ECeOpZBBPnw/image_thumb%25255B67%25255D.png?imgmax=800)
 
 #Week 3
 
@@ -73,21 +59,14 @@ We have a lot of catching up to do, though... This much is certain
 This week, we learned the rules of inference and continued our discussion about arguments.
 
 ####learning log
-- atomic propositions, or assigning symbols and letters to propositional statements allows us to simplify tasks.
+- we create atomic propositions by assigning symbols and letters to propositional statements.
 - a tautology is a rule of replacement that is used to replace redundant expressions (?)
+- we learned the various rules of inference
 
+![img](http://images.slideplayer.com/11/3241425/slides/slide_2.jpg)
 
-| Rules of Inference (My way of remembering) ||
-| :-----: |:-------:|
-| Modus ponens | Is, therefore |
-| Modus tollens | Is not, so |
-| Hypothetical Syllogism | Your front is my back |                                    
-| Disjunctive Syllogism | Not this, so this |                                                    
-| Addition |  Out of the blue |                                           
-| Simplification |  The truth's in the p |                                   
-| Conjunction | Put em' together | 
-| Resolution |  If you're not taking it, I will |
-
+- Statements in the English language are difficult to analyze logically in some cases, because the definition may be ambiguous.
+- we "proved" that Superman does not exist using atomic propositions and rules of inference.
 
 [HELPFUL LINK]: http://www.philosophypages.com/lg/e11a.htm
 
@@ -109,7 +88,8 @@ This week, we learned the rules of inference and continued our discussion about 
 | Methods of Proving ||
 | :-----: |:-------:|
 | Proof of Equivalence | For P ↔ Q,  prove **P → Q**, and **Q → P** |
-| Mathematical Induction | Start with a Basis, then show that P(k+1) is equivalent to P(k)+P(1)|
+| Contradiction | Assume **P** to be **false** and then seek a contradiciton |
+| Mathematical Induction | Example: Start with a Basis, then show that P(k+1) is equivalent to P(k)+P(1)|
 
 - Learned that to prove a proof by equivalence "p ↔ q" , you must prove that p implies q AND q implies p.
 - Learned Recursive/Inductive Definition.
@@ -120,6 +100,7 @@ This week, we learned the rules of inference and continued our discussion about 
 #Week 6
 
 - Discussed sets, which was also the first topic in our ENGSTAT course.
+- Cardinality is the number of members of a set
 
 
 | Methods of Proving ||
@@ -147,18 +128,74 @@ This week, we learned the rules of inference and continued our discussion about 
 | Surjective | Onto |
 | Bijective  | One-to-one correspondence |
 
+![img](http://www.cs.odu.edu/~cs381/cs381content/relation/figures/function3.gif)
+
+
 
 #Week 8
 - Existing knowledge in programming will help you better understand how to make pseudocode
-- Algorithms receive input, perform a procedure, and generate and output
+- Algorithms receive input, perform a procedure, and generate an output
 - Any algorithm should be designed to be **definite, finite and general**
 - Most of the algorithms we are discussing aim to solve simple problems by providing a definite procedure.
-- In the words of Sir Mallari "Computers are dumb. You have to tell them exactly what to do."
+- In the words of Sir Mallari "Computers are "dumb". You have to tell them **exactly** what to do." 
+
 
 #Week 9
 - We learned about **linear search and binary search**
 - We have implemented linear search in the past during our C programming classes
 - Also learned about **insertion and bubble sort**
 - A bubble sort is called that way because larger values "bubble up" or float to the top.
+- A greedy algorithm is one that selects the most favorable selection at each "stage."
+
+| Search Algorithms ||
+| :-----: | :-------: |
+| Linear | Algorithms searches for the first occurance |
+| Binary | Algorithm compares the input to the median value and repeats this until it is found |
+
+| Sorting Algorithms ||
+| :-----: | :-------: |
+| Insertion | Inserts the value in the correct position after making comparison with elements in the list |
+| Bubble | Large values "float" to the top, while small values "sink" to the bottom of the list |
 
 
+#Week 10
+
+- We discussed growth of functions
+- The efficiency of an algorithm can drastically change for larger inputs.
+- We defined each program or algorithm to have a complexity determind by the number of operations it executes given a certain number of input.
+
+- A less complex algorithm is **often** favored over more complex algorithm.
+
+- If f is of order at least g, then f(x) is Ω(g(x)) iff C|g(x)| <= |f(x)| for all x > k
+- If f is of order at most g, then f(x) is O(g(x)) iff C|g(x)| >= |f(x)| for all x > k
+- If f is of order g, then f(x) is O(g(x)) iff A|g(x)| <= |f(x)| <= B|g(x)| for all x > k
+- C and k are called "witnesses."
+
+![img](http://i.stack.imgur.com/5eFMU.png)
+
+#Week 11
+
+- A degree of a vertex in an undirected graph is the number of edges incident with it.
+- Two points in a graph are adjacent if they are endpoints of an edge in the graph
+- A subgraph of graph G=(V, E) is a graph that contains vertices and edges that are subsets of the sets of vertices and edges of the graph.
+- The union of two graphs contains the vertices and edges of both graphs.
+
+
+| Some types of graphs ||
+| :-----: | :-------: |
+| Complete | |
+| Cycle |  |
+| Wheel | |
+
+
+| Euler ||
+| :-----: | :-------: |
+| Path | path containing every edge |
+| Circuit | circuit containing every edge |
+
+| Hamiltonian ||
+| :-----: | :-------: |
+| Path | Passess every vertex exactly once |
+| Circuit | Passes every vertex exactly once and returns to the starting point |
+
+- A Petersen graph has a hamilton path but not a circuit.
