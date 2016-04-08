@@ -3,6 +3,7 @@ dismathportfolio-ToMatt0 created by Classroom for GitHub
 
 Author: Matthew Gonzales
 ID: 11402725
+XEE1
 (FEEL FREE TO BROWSE AND/OR COPY)
 (?) - Signifies an unanswered question
 
@@ -103,7 +104,7 @@ This week, we learned the rules of inference and continued our discussion about 
 - Cardinality is the number of members of a set
 
 
-| Methods of Proving ||
+| Set Theory ||
 | :-----: |:-------:|
 | Union of Sets | ∨ |
 | Intersection of Sets | ∧ |
@@ -164,7 +165,7 @@ This week, we learned the rules of inference and continued our discussion about 
 - The efficiency of an algorithm can drastically change for larger inputs.
 - We defined each program or algorithm to have a complexity determind by the number of operations it executes given a certain number of input.
 
-- A less complex algorithm is **often** favored over more complex algorithm.
+- A less complex algorithm is **almost always** favored over more complex algorithm.
 
 - If f is of order at least g, then f(x) is Ω(g(x)) iff C|g(x)| <= |f(x)| for all x > k
 - If f is of order at most g, then f(x) is O(g(x)) iff C|g(x)| >= |f(x)| for all x > k
@@ -179,13 +180,21 @@ This week, we learned the rules of inference and continued our discussion about 
 - Two points in a graph are adjacent if they are endpoints of an edge in the graph
 - A subgraph of graph G=(V, E) is a graph that contains vertices and edges that are subsets of the sets of vertices and edges of the graph.
 - The union of two graphs contains the vertices and edges of both graphs.
+- A vertex of degree zero is isolated, a vertex of degree one is a pendant.
+- Handshaking theorem: 2e=∑deg(v), where v is an element of V
+- Euler's formula:r=e-v+2
 
+- Graphs are isomorphic if there is a one to one and onto function f from the set of vertices of one graph to the other.
+- Graph G is homeomorphic to graph H if they can be obtained from the graph through a sequence of elementary substitutions.
+- Kuratowski's theorem states that a graph is non-planar if it contains a subgraph of graphs K(3,3) and K(5).
+
+- Incidence matrices and adjacency matrices
 
 | Some types of graphs ||
 | :-----: | :-------: |
-| Complete | |
-| Cycle |  |
-| Wheel | |
+| Complete | A simple graph that contains one edge between every unique pair of vertices |
+| Cycle | Consists of vertices V1, V2, V3..., Vn and edges {V1, V2}, {V2, V3},...,{V(n-1), Vn}, and {Vn. V1}|
+| Wheel | A cycle with an additional vertex added and connected to each vertex |
 
 
 | Euler ||
@@ -199,3 +208,20 @@ This week, we learned the rules of inference and continued our discussion about 
 | Circuit | Passes every vertex exactly once and returns to the starting point |
 
 - A Petersen graph has a hamilton path but not a circuit.
+
+
+#Week 12
+
+- In graph coloring, no two adjacent nodes may share a similar color.
+- A chromatic number is the least number of colors needed to color a graph: χ(G)
+- According to the four color theorem, planar graphs have a chromatic number no greater than 4.
+
+- A tree is an undirected graph with no simple circuits.
+- A graph with a subgraph that is a circuit is no longer a tree.
+- A tree has a set of nodes each with their own level.
+- Trees have applications in modeling and in studying the complexity of algorithms.
+- A rooted tree is a tree which has exactly one vertex designated as the root and all edges are directed away from the root.
+- Some different terms of trees are parents, siblings, children, ancestors, descendants, leaves, and internal vertices.
+- An m-ary tree is a rooted tree in which every internal vertex has exactly m children
+- An ordered rooted tree in which all the children of the internal vertices are ordered.
+- We were given an example of how finite state machines work using the example of a vending machine.
